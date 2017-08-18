@@ -89,8 +89,8 @@ class CartServiceProvider extends ServiceProvider
      * @return void
      */
     public function boot() {
-        $this->publishes([
-            __DIR__.'/../../config/moltincart.php' => config_path('moltincart.php'),
-        ]);
+        //$this->publishes([
+        //    __DIR__.'/../../config/moltincart.php' => config_path('moltincart.php'),
+        //]);
     }
 }
